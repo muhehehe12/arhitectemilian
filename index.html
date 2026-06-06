@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilian Sora | Architecture & Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="loading-screen">
+        <div class="loader-line"></div>
+        <h2 class="loading-text" data-i18n="loading">Se incarca...</h2>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">SORA EMILIAN</div>
+        <div class="nav-links">
+            <a href="#home" data-i18n="nav-home">Acasă</a>
+            <a href="#about" data-i18n="nav-about">Expertiză</a>
+            <a href="#services" data-i18n="nav-services">Servicii & DTAC</a>
+            <a href="#contact" data-i18n="nav-contact">Contact</a>
+            <div class="lang-toggle">
+                <span id="lang-en" class="lang-btn">EN</span> | 
+                <span id="lang-ro" class="lang-btn active">RO</span>
+            </div>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+            <div class="experience-badge" data-i18n="hero-badge">25 Ani de Excelență</div>
+            <h1 data-i18n="hero-title">Proiectare și Arhitectură la Standarde Înalte</h1>
+            <p data-i18n="hero-subtitle">De la concept arhitectural și randări fotorealiste, la obținerea Autorizației de Construire și execuție la cheie. Standard nZEB integrat.</p>
+            <div class="cta-buttons">
+                <a href="tel:0722726631" class="btn primary" data-i18n="hero-cta">Discută cu Arhitectul: 072 272 6631</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container reveal">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title" data-i18n="about-title">Viziune și Rigoare Tehnică</h2>
+                    <p data-i18n="about-desc-1">Societate de construcții cu peste 25 de ani de experiență în proiectarea și construirea structurilor din beton armat, zidărie portantă și lemn lamelat încleiat. Realizăm proiecte deosebite, de cea mai înaltă ținută tehnică și estetică.</p>
+                    <p data-i18n="about-desc-2">Fie că este vorba de case, pensiuni sau hale, asigurăm consultanță pentru conformarea bugetului și atingerea eficienței energetice nZEB, păstrând un raport optim cost/beneficiu.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3 data-i18n="stat-price">5€ / mp</h3>
+                            <p data-i18n="stat-price-desc">Preț de pornire proiectare</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 data-i18n="stat-coverage">6 Județe</h3>
+                            <p data-i18n="stat-coverage-desc">București, Ilfov, DB, BV, PH, AG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title center reveal" data-i18n="services-title">Etapele Proiectului Tău</h2>
+            <div class="services-grid">
+                <div class="service-card reveal delay-1">
+                    <div class="step-number">01</div>
+                    <h3 data-i18n="srv-1-title">Concept & Urbanism</h3>
+                    <p data-i18n="srv-1-desc">Întocmirea documentației pentru Certificatul de Urbanism (C.U.), analize de buget, studii geotehnice și avize necesare.</p>
+                </div>
+                <div class="service-card reveal delay-2">
+                    <div class="step-number">02</div>
+                    <h3 data-i18n="srv-2-title">Proiectare & 3D</h3>
+                    <p data-i18n="srv-2-desc">Elaborarea a 2-3 propuneri cu randări fotorealiste interior/exterior, perfect armonizate cu specificațiile din C.U.</p>
+                </div>
+                <div class="service-card reveal delay-3">
+                    <div class="step-number">03</div>
+                    <h3 data-i18n="srv-3-title">Documentație DTAC</h3>
+                    <p data-i18n="srv-3-desc">Proiect de arhitectură integrat, documentație pentru Autorizația de Construire, memorii tehnice și verificări MLPAT.</p>
+                </div>
+                <div class="service-card reveal delay-1">
+                    <div class="step-number">04</div>
+                    <h3 data-i18n="srv-4-title">Proiect Tehnic (PTE)</h3>
+                    <p data-i18n="srv-4-desc">Proiect tehnic de execuție pentru fundație/suprastructură, liste de cantități, extrase de armare și instalații (Sanitare, Electrice, Termice).</p>
+                </div>
+                <div class="service-card reveal delay-2">
+                    <div class="step-number">05</div>
+                    <h3 data-i18n="srv-5-title">Consulting & QA</h3>
+                    <p data-i18n="srv-5-desc">Asistență de șantier, Second Opinion, programe de urmărire a calității și verificări prin Responsabil Tehnic cu Execuția (RTE).</p>
+                </div>
+                <div class="service-card reveal delay-3">
+                    <div class="step-number">06</div>
+                    <h3 data-i18n="srv-6-title">Execuție la Cheie</h3>
+                    <p data-i18n="srv-6-desc">Capacitatea de a transforma proiectul în realitate la cel mai înalt nivel de calitate pentru structură, finisaje și instalații.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container reveal">
+            <h2 class="section-title" data-i18n="contact-title">Inițiază un Proiect</h2>
+            <p data-i18n="contact-desc">Niciun proiect nu este prea mare, niciun proiect nu este prea mic. Proiectele se execută în baza unui contract prin care ne asumăm răspunderea corectitudinii documentației.</p>
+            
+            <div class="contact-box">
+                <h3 data-i18n="contact-name">Sora Emilian</h3>
+                <span class="company-badge" data-i18n="contact-role">Arhitect / Inginer Structurist</span>
+                <a href="tel:0722726631" class="phone-number">072 272 6631</a>
+                <p data-i18n="contact-availability">Sediul în Târgoviște. Operăm la nivel național și regional.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Sora Emilian Architecture. <span data-i18n="footer-rights">Toate drepturile rezervate.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
